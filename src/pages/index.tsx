@@ -1,7 +1,7 @@
 type Props = {
-  title: string;
-};
+  title: string
+}
 
-export default function Home({ title = "React Avançado" }: Props) {
-  return <h1>{title}</h1>;
+export default function Home({ title = 'React Avançado' }: Props) {
+  return <h1>{title}</h1>
 }
