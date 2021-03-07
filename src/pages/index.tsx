@@ -2,6 +2,6 @@ type Props = {
   title: string;
 };
 
-export default function Home({ title = 'React Avançado' }: Props) {
+export default function Home({ title = "React Avançado" }: Props) {
   return <h1>{title}</h1>;
 }
